@@ -22,7 +22,7 @@ change in `.env` `NOTIFY_EMAIL_RECIPIENT` and `NOTIFY_SMS_RECIPIENT`
 
 `docker-compose up -d`
 
-`docker-compose exec bin/console compare-urls http://onet.pl http://c2d.pl,http://wp.pl,http://gog.com`
+`docker-compose exec php bin/console compare-urls http://onet.pl http://c2d.pl,http://wp.pl,http://gog.com`
 
 
 ## execute tests
