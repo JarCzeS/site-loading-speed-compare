@@ -27,4 +27,6 @@ change in `.env` `NOTIFY_EMAIL_RECIPIENT` and `NOTIFY_SMS_RECIPIENT`
 
 ## execute tests
 
+`composer require --dev phpunit`
+
 `bin/phpunit` or ``docker-compose exec php bin/phpunit``
